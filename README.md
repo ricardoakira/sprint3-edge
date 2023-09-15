@@ -1,14 +1,13 @@
 # Lixeiras Inteligentes - Longest Wave Tech
 
-
-## Draft da arquitetura
-![Draft da Arquitetura](img/arquitetura.png)
-
 ## Visão Geral
 
 As lixeiras inteligentes da Longest Wave Tech possuem um sistema inteligente de gerenciamento de resíduos que utiliza a tecnologia IoT (Internet das Coisas) para monitorar, alertar e melhorar o gerenciamento de lixeiras. Este sistema é projetado para melhorar a eficiência e reduzir o esforço humano envolvido na coleta e monitoramento de resíduos sólidos por meio da integração de dispositivos IoT.
 
-## Componentes IoT Utilizados
+## Draft da arquitetura
+![Draft da Arquitetura](img/arquitetura.png)
+
+## Componentes Utilizados
 
 - Módulo ESP32 4G
 - Sensor Ultrassônico HC-SR04
@@ -22,7 +21,7 @@ As lixeiras inteligentes da Longest Wave Tech possuem um sistema inteligente de 
 
 ## Funcionamento
 
-São utilizados sensores ultrassônicos para monitorar a altura do lixo em qualquer lixeira. O transmissor ultrassônico emite uma onda ultrassônica que viaja pelo ar e, quando atinge qualquer material, é refletida de volta em direção ao sensor.
+São utilizados sensores ultrassônicos para monitorar a altura do lixo na lixeira. O transmissor ultrassônico emite uma onda ultrassônica que viaja pelo ar e, quando atinge qualquer material, é refletida de volta em direção ao sensor.
 
 Além disso, um sensor infravermelho (IR) é utilizado para detecção de movimento, permitindo que o Smart Bin saiba quando alguém se aproxima para descartar o lixo.
 
